@@ -47,6 +47,9 @@ Ethernetis a family of wired computer networking technologies commonly used in l
 # Network
 A computer network is a set of computers sharing resources located on or provided by network nodes. Computers use common communication protocols over digital interconnections to communicate with each other. These interconnections are made up of telecommunication network technologies based on physically wired, optical, and wireless radio-frequency methods that may be arranged in a variety of network topologies.
 
+![Screenshot_2024_1105_055827](https://github.com/user-attachments/assets/e060004d-ad36-482b-9128-ad60ad5ee88a)
+
+
 # WAN (Wide Area Network)
 A wide area network (WAN) is a telecommunications network that extends over a large geographic area. Wide area networks are often established with leased telecommunication circuits.
 
@@ -404,6 +407,8 @@ It allows one device to connect to network
 # DPU :- Data Processing Unit
 it is a new programmable processor that helps move data around data centres. it ensures right data goes to right place in right format quickly .
 
+![Screenshot_2024_1105_073335](https://github.com/user-attachments/assets/699dfc47-d00b-4a1b-bdc2-5d32080470e6)
+
 
 # .CSI :- Container Storage Interface
 # . OVS :- Open virtual switch
@@ -414,7 +419,8 @@ free open source machine it can run various guest operating systems (OS's ) and 
 
 #  Docker :-
 it is like a container that holds everything your application needs to run including the code, libraries.
-
+![Screenshot_2024_0918_124023](https://github.com/user-attachments/assets/03fdbbef-5f0d-4a17-8797-f8e8ca8a5f58)
+ 
 # Kubernets :-
 it is like a manager for containers .it helps to deploy, scale and manage a group of containers making sure they run smoothly.
 
@@ -478,8 +484,8 @@ it ensures reliable order delivery of data between applications . It handles thi
 
 2. IP
 responsible for addressing and routing packets across the internet.
-
-Screenshot_2024_1105_052610
+![Screenshot_2024_1105_052610](https://github.com/user-attachments/assets/c836af5c-8b7a-48e2-ab47-2a5d79e26cf0)
+ 
 
 3. HTTP
 it is a protocol that powers the world wide web defining how messages are formatted and transmitted between web browsers and servers.
