@@ -365,3 +365,138 @@ The process of creating new coins in a cryptocurrency network is referred to as 
 
 # SSH
 SSH (Secure Shell) is a way to securely connect to another computer over a network. It's like a safe tunnel that allows you to control a remote computer and transfer files to it, without anyone else being able to listen in or interfere with the connection.
+
+# network adaptor/ interface
+• connects a device to network. • has a Mac address by manufacturer • second layer device
+
+#  switch
+•it is a very multiport network bridge that uses MAC address to forward data •link layer device
+
+# Router
+•it is a device that forwards data between computer networks • 3rd layer device
+
+# HUB
+•network device that used to connect multiple computers in a network • all information send to the hub is automatically send to each port to every device
+
+# TAP
+(WORKS ON LAYER 2 -- ethernet frame )
+
+used to create a user space network bridge.
+
+# TUN
+( WORKS ON LAYER 3 -- IP packets )
+
+create a tunnel network to reach another network .
+
+# Basic terms for understanding networking better:-
+# .NAT :-
+it is a process in which one or more local IP addresses are translated into one or more global IP addresses and vice versa
+
+# veth :-
+these are pair of virtual network interfaces that are used to connect network namespaces together.
+
+# DPDK :- Data Plane Development Kit
+it is a set of libraries and drivers that accelerates packet processing and their ability to create packet forwarders without the need of costly custom switches and routers
+
+#  NIC :- network interface card
+It allows one device to connect to network
+
+# DPU :- Data Processing Unit
+it is a new programmable processor that helps move data around data centres. it ensures right data goes to right place in right format quickly .
+
+
+# .CSI :- Container Storage Interface
+# . OVS :- Open virtual switch
+it is used with hypervisors to interconnect virtual machines within a host and between different hosts accross networks.
+
+# QEMU :- Quick emulator
+free open source machine it can run various guest operating systems (OS's ) and architecture on a single host system.
+
+#  Docker :-
+it is like a container that holds everything your application needs to run including the code, libraries.
+
+# Kubernets :-
+it is like a manager for containers .it helps to deploy, scale and manage a group of containers making sure they run smoothly.
+
+
+# web assembly:- (WASM)
+technology that allows you to run code written in different programming languages. It is a way to build high speed, responsive web applications that can handle data and communicate over networks.
+
+#  Firewall :-
+security system that controls incoming and outgoing network traffic based on pre- determined security 
+
+# VxLAN :-
+It is tunneling report that tunnel Ethernet traffic (layer 2) over an IP network(layer 3).
+
+#  VTEP:-
+it is a device that's responsible for encapsulating and de-capsulating layer 2 traffic.
+
+# LINUX Bridge :-
+it is a kernel module that behaves like a network switch .It is usually used for forwarding packages on routes or gateways or between virtual machines.
+
+# Pktgen :-
+it is a tool for high speed package generation and testing. It in the Linux kernel.
+
+# netns :- network namespace
+feature of Linux kernel that provides a way to create isolated network environment.
+
+# TAP
+is often used to connect VM or containers to a physical network
+
+# KVM :- kernel virtual machine
+( typer 1 hypervisor)
+
+# CNI :- Container Networking Bridge
+it is responsible for setting up the network ( assigning IP address, create network bridge) for containers ,enabling communication between containers and outside world
+
+examples VLAN , IPvLAN , CALICO , FLANNEL , VMware. etc
+
+# Flannel :-
+it acts as a layer that allows containers to send and receive data seamlessly accross various hosts .
+
+working:-
+it runs a small single binary agent on every host. this networking tool gives every host an IP subnet.
+
+# Packet Switching:-
+when we send email or web page the data does not travel as single continuous stream instead is broken down into smaller chunks called packets .
+
+
+key functions of network core :-
+1. Forwarding :-
+• it is a local action of moving and arriving packets from a router's input to appropriate router output link.
+
+
+2. Routing :-
+• global process of determining the full paths packets take from source to destination
+
+
+# Network Protocols:-
+set of rules that determine how the packet is to be transferred and received 
+
+1. TCP
+it ensures reliable order delivery of data between applications . It handles things like breaking data into packets
+
+2. IP
+responsible for addressing and routing packets across the internet.
+
+Screenshot_2024_1105_052610
+
+3. HTTP
+it is a protocol that powers the world wide web defining how messages are formatted and transmitted between web browsers and servers.
+
+
+# TCP /IP
+provide reliable transmission of data.
+
+# UDP
+provides faster but less reliable transmission of data.
+
+
+Packet flow, also known as network flow or traffic flow:-
+it is the sequence of packets that travel from a source computer to a destination.
+
+•Packets are segments of data that are routed through a network of interconnected devices, such as switches and routers, before reaching their destination.
+
+
+
+
