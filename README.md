@@ -358,4 +358,5 @@ The process of creating new coins in a cryptocurrency network is referred to as 
 
 
 ~ Version Control: A system that manages changes to code, allowing multiple developers to collaborate effectively.
-
+# SSH
+SSH (Secure Shell) is a way to securely connect to another computer over a network. It's like a safe tunnel that allows you to control a remote computer and transfer files to it, without anyone else being able to listen in or interfere with the connection.
